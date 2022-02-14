@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.first_section {
+    background-color: #1F2937;
+    padding: 20px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.first_section_header {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.first_section_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text {
+    width: 400px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0;
+    padding: 5px 15px;
+    color: #F9FAF8;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+.second_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second_section .first_part {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.first_part h2 {
+    margin: 0;
+}
+
+.four_fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.field p {
+    width: 200px;
+    font-size: 18px;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+.field img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.third_section {
+    background-color: #E5E7EB;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 70px 50px 70px;
+}
+
+.third_section .quote_text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.third_section .quote_author {
+    align-self: flex-end;
+    font-size: 20px;
+    margin: 0;
+}
+
+.fourth_section {
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.fourth_section .first_part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 100px 40px 100px 40px;
+}
+
+.first_part .blue_part {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.part_text h4 {
+    font-size: 20px;
+    margin: 0;
+}
+.part_text p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.part_button button {
+    border: 3px solid #F9FAF8;
+}
+
+.fourth_section .second_part {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
